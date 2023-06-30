@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://becca.lol/</loc>
+    </url>
+    <url>
+        <loc>https://becca.lol/letters/</loc>
+    </url>
+    <url>
+        <loc>https://becca.lol/letters/first-note/</loc>
+        <lastmod>2022-08-21</lastmod>
+    </url>
+    <url>
+        <loc>https://becca.lol/letters/second-note/</loc>
+        <lastmod>2022-08-22</lastmod>
+    </url>
+    <url>
+        <loc>https://becca.lol/letters/third-note/</loc>
+        <lastmod>2022-08-23</lastmod>
+    </url>
+    <url>
+        <loc>https://becca.lol/music/</loc>
+    </url>
+    <url>
+        <loc>https://becca.lol/whatisthis/</loc>
+    </url>
+</urlset>

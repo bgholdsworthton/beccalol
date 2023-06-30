@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="The aim of this site is to write a note to a lovely girl named Becca everyday, and keep them here.">
+    <title>For theBec | Festivals, Dakota and Strongbow</title>
+    
+    <link rel="stylesheet" href="https://becca.lol/style.css?h=a56f213afcf5d255b64918e7a9e0f468ef1d0ac2954b49f36003998666482371">
+    
+</head>
+<body>
+    
+<header class="space">
+    <a href="https:&#x2F;&#x2F;becca.lol&#x2F;">&LeftArrow; Home</a>
+</header>
+
+    
+<main>
+    <h1>Festivals, Dakota and Strongbow</h1>
+    
+    <p class="secondary">21 August, 2022</p>
+    
+    <div class="space"></div>
+    <p>Hi Becca</p>
+<p>This is the first of many notes, I’m going to try and do one everyday for you.</p>
+<p>Hopefully you can check back on them in future…</p>
+<p>Listen, I am super tired and it is 3:09AM, you’re currently in the land of nod x.</p>
+<p>You are honestly so sweet and kind, it is unreal, and I appreciate every minute I spend with you. Never worry about ‘blowing it’ you won’t!</p>
+<p>Hey, I’m glad you got out today and had fun, cute one - it’s great that you were safe though.</p>
+<p>For now… I’m going to sleep.</p>
+<p>Check back for more sweet notes, cute one.</p>
+<p>Yours, B.</p>
+
+</main>
+
+    <div class="dark-mode-buttons">
+        <button class="dark-mode-button" id="dark-mode-on"><img src="https://becca.lol/dark_mode.svg" width="24" height="24" alt="Dark mode" aria-label="dark mode toggle" title="Dark mode"></button>
+        <button class="dark-mode-button" id="dark-mode-off"><img src="https://becca.lol/light_mode.svg" width="24" height="24" alt="Light mode" aria-label="light mode toggle" title="Light mode"></button>
+    </div>
+    <script>
+        const cls = document.body.classList;
+        const getSessionTheme = sessionStorage.getItem("theme");
+        if (getSessionTheme === "dark") {
+            cls.toggle("dark-mode", true);
+        } else if (getSessionTheme === "light") {
+            cls.toggle("dark-mode", false);
+        } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+            cls.toggle("dark-mode", true);
+        }
+
+        document.getElementById("dark-mode-on").addEventListener("click", function(e) {
+            cls.toggle("dark-mode", true);
+            sessionStorage.setItem("theme", "dark");
+        });
+        document.getElementById("dark-mode-off").addEventListener("click", function(e) {
+            cls.toggle("dark-mode", false);
+            sessionStorage.setItem("theme", "light");
+        });
+    </script>
+    <noscript>
+        <style>
+            .dark-mode-buttons {
+                display: none;
+            }
+        </style>
+    </noscript>
+</body>
+</html>
